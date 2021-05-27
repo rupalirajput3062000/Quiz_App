@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="inner_container">
+        <h2 id="question">This is the question</h2>
+        <div class="answer_container">
+          <input type="radio" name="answer" id="ans1" class="ans" />
+          <label for="ans1" class="option" id="option1">Option 1 </label>
+        </div>
+        <div class="answer_container">
+          <input type="radio" name="answer" id="ans2" class="ans" />
+          <label for="ans2" class="option" id="option2">Option 2 </label>
+        </div>
+        <div class="answer_container">
+          <input type="radio" name="answer" id="ans3" class="ans" />
+          <label for="ans3" class="option" id="option3">Option 3 </label>
+        </div>
+        <div class="answer_container">
+          <input type="radio" name="answer" id="ans4" class="ans" />
+          <label for="ans4" class="option" id="option4">Option 4 </label>
+        </div>
+        <input
+          type="submit"
+          id="submit"
+          value="Submit"
+          class="btn btn-primary"
+        />
+        <div id="score_str" class="hidden">
+          <h3 id="text">Your score is</h3>
+          <input
+            type="submit"
+            id="play_again"
+            value="Play Again"
+            class="btn btn-green"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
